@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frederik's ønskeliste</title>
+    <link rel="stylesheet" href="wishList.css">
+</head>
+<body>
+    <div id="withList">
+        <div id="withListHeadLine">
+            <h1 id="headLine">Frederiks Ønskeliste</h1>
+        </div>
+        <div id="ønsker">
+            <div class="ønske1box">
+                <div class="ønske1">
+                    <div class="boxMedØnske1Ooverskrift">
+                        <button class="ønske1overskrift" onclick="linkTilMusen()">
+                            Musemåtte fra elgiganten
+                        </button>
+                    </div>
+                    <div>
+                        <label class="fedBeskrivelse" >Hvor kan den købes fysisk?</label>
+                    </div>
+                    <div>
+                        <label class="beskrivelse">Den kan købes fysisk i elgiganten</label>
+                        <button class="button" onclick="omdirigereTilElgigantenLocation()">se hvor</button>
+                    </div>
+                    <div>
+                        <label class="fedBeskrivelse"class="hvorKanDenKøbesOnline">Hvor kan den købes online?</label>
+                    </div>
+                    <div>
+                        <button class="button" onclick="linkTilMusen()">Tryk her</button>
+                        <label class="beskrivelse">for at komme til hjemmesiden hvor mussemåtten kan købes</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ønske1box">
+                <div class="ønske1">
+                    <div class="boxMedØnske1Ooverskrift">
+                        <button class="ønske1overskrift" onclick="linkTilHeadsæt()">
+                            Headsæt fra elgiganten
+                        </button>
+                    </div>
+                    <div>
+                        <label class="fedBeskrivelse">Hvor kan den købes fysisk?</label>
+                    </div>
+                    <div>
+                        <label class="beskrivelse">Den kan købes fysisk i elgiganten</label>
+                        <button class="button" onclick="omdirigereTilElgigantenLocation()">se hvor</button>
+                    </div>
+                    <div>
+                        <label class="fedBeskrivelse" class="hvorKanDenKøbesOnline">Hvor kan den købes online?</label>
+                    </div>
+                    <div>
+                        <button class="button" onclick="linkTilHeadsæt()">Tryk her</button>
+                        <label class="beskrivelse">for at komme til hjemmesiden hvor headsættet kan købes</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ønske1box">
+                <div class="ønske1">
+                    <div class="boxMedØnske1Ooverskrift">
+                        <button class="ønske1overskrift" onclick="linkTilBukser()">
+                            Bukser fra Skagen Clothing
+                        </button>
+                    </div>
+                    <div>
+                        <label class="fedBeskrivelse">Hvor kan den købes fysisk?</label>
+                    </div>
+                    <div>
+                        <label class="beskrivelse">De kan ikke købes fysisk</label>
+                    </div>
+                    <div>
+                        <label class="fedBeskrivelse" class="hvorKanDenKøbesOnline">Hvor kan den købes online?</label>
+                    </div>
+                    <div>
+                        <button class="button" onclick="linkTilBukser()">Tryk her</button>
+                        <label class="beskrivelse">for at komme til hjemmesiden hvor bukserne kan købes</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ønske1box">
+            <div class="ønske1">
+                <div class="boxMedØnske1Ooverskrift">
+                    <button class="ønske1overskrift" onclick="linkTilZalandoBukser()">
+                        Bukser fra Zalando
+                    </button>
+                </div>
+                <div>
+                    <label class="fedBeskrivelse">Hvor kan den købes fysisk?</label>
+                </div>
+                <div>
+                    <label class="beskrivelse">De kan ikke købes fysisk</label>
+                </div>
+                <div>
+                    <label class="fedBeskrivelse" class="hvorKanDenKøbesOnline">Hvor kan den købes online?</label>
+                </div>
+                <div>
+                    <button class="button" onclick="linkTilZalandoBukser()">Tryk her</button>
+                    <label class="beskrivelse">for at komme til hjemmesiden hvor bukserne kan købes</label>
+                </div>
+            </div>
+        </div>
+        <div class="ønske1box">
+            <div class="ønske1">
+                <div class="boxMedØnske1Ooverskrift">
+                    <button class="ønske1overskrift" onclick="linkTilLanet()">
+                        Lagen fra Jysk
+                    </button>
+                </div>
+                <div>
+                    <label class="fedBeskrivelse">Hvor kan den købes fysisk?</label>
+                </div>
+                <div>
+                    <label class="beskrivelse">Lanet kan findes fysisk i Jysk</label>
+                    <button class="button" onclick="omdirigereTilJyskLocation()">se hvor</button>
+                </div>
+                <div>
+                    <label class="fedBeskrivelse" class="hvorKanDenKøbesOnline">Hvor kan den købes online?</label>
+                </div>
+                <div>
+                    <button class="button" onclick="linkTilLanet()">Tryk her</button>
+                    <label class="beskrivelse">for at komme til hjemmesiden hvor lagnet kan købes</label>
+                </div>
+            </div>
+        </div>
+        <div class="ønske1box">
+            <div class="ønske1">
+                <div class="boxMedØnske1Ooverskrift">
+                    <button class="ønske1overskrift" onclick="linkTilLanet()">
+                        Penge til brugt macbook
+                    </button>
+                </div>
+                <div>
+                    <label class="fedBeskrivelse">Hvor kan den købes fysisk?</label>
+                </div>
+                <div>
+                    <label class="beskrivelse">Penge kan hæves i en pengeautomat</label>
+                    <button class="button" onclick="omdirigeringTilHæveautomat()">se hvor</button>
+                </div>
+                <div>
+                    <label class="fedBeskrivelse" class="hvorKanDenKøbesOnline">Hvor kan den købes online?</label>
+                </div>
+                <div>
+                    <button class="button" onclick="linkTilMobilePay()">Tryk her</button>
+                    <label class="beskrivelse">for at komme til hjemmesiden hvor pengene kan sendes</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="wishList.js"></script>
+</body>
+</html>

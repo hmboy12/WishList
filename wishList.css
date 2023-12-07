@@ -1,0 +1,78 @@
+.label{
+    font-weight: bold;
+    font-size: 35px;
+    padding: 2px;
+}
+
+.ønske1{
+    display: grid;
+    grid-template-rows: 4fr 2fr 2fr 2fr 2fr;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.beskrivelse{
+    font-size: 20px;
+}
+
+
+#withList{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    max-width: 600px;
+    margin: auto;
+    width: 50%;
+}
+
+.fedBeskrivelse{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ønske1overskrift{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.ønske1overskrift:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.ønske1box{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: black;
+}
+
+.hvorKanDenKøbesFysisk{
+    margin-top: 5px;
+}
+
+#withListHeadLine{
+    text-align: center;
+}
+
+body{
+    background-image: url("/Pictures/wp7872687.webp");
+}
+
+.button{
+    border-radius: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+
+
